@@ -37,15 +37,16 @@
 }
 
 .contact-button {
+    display: flex;
+    justify-content: center;
     border-radius: 4px;
-    color: rgb(249, 115, 22, 1);
+    background: rgb(249, 115, 22, 1);
+    padding: 24px 40px;
+    margin-top: 15px;
+    width: 184px;
 }
 
 .button {
-    display: inline-flex;
-    padding: 24px 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    color: white;
 }
  /* faq.html styling should go here (William)  */
