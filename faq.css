@@ -8,4 +8,44 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.header {
+    font-family: Roboto;
+    font-style: normal;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+.color-highlight {
+    font-family: Roboto;
+    color: rgb(249, 115, 22, 1);
+    font-style: normal;
+}
+
+.paragraph-container {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    width: 660px;
+}
+
+.contact-button {
+    border-radius: 4px;
+    color: rgb(249, 115, 22, 1);
+}
+
+.button {
+    display: inline-flex;
+    padding: 24px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
  /* faq.html styling should go here (William)  */
