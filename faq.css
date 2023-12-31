@@ -34,6 +34,7 @@
     font-style: normal;
     font-weight: 300;
     width: 660px;
+    margin-bottom: 15px; /* To create some space between the paragraph and the contact us button */
 }
 
 .contact-button {
@@ -42,11 +43,16 @@
     border-radius: 4px;
     background: rgb(249, 115, 22, 1);
     padding: 24px 40px;
-    margin-top: 15px;
     width: 184px;
+    margin: auto;
 }
 
 .button {
     color: white;
+}
+
+.faq-closed h5 {
+    color: rgb(249, 115, 22, 1);
+    font-size: 20px;
 }
  /* faq.html styling should go here (William)  */
