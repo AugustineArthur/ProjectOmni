@@ -52,10 +52,12 @@
 }
 
 .flex-container h5 {
-    display: flex;
     color: rgb(249, 115, 22, 1);
     font-size: 20px;
-    border: 1px solid rgba(226, 232, 239, 1);
+}
+
+.line {
+    border-bottom: 2px solid rgba(226, 232, 239, 1);
 }
 
 #vector {
@@ -63,7 +65,7 @@
     height: 12px;
 }
 
-.flex-child {
-    flex: 1;
+.faq-closed-1 {
+    left: 262px;
 }
  /* faq.html styling should go here (William)  */
