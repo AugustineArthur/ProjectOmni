@@ -22,6 +22,14 @@
     font-style: normal;
 }
 
+.flex-container {
+    margin-top: 50px;
+}
+
+.flex-child-faq-closed-8 p{
+    margin-top: 50px
+}
+
 .paragraph-container {
     display: flex;
     justify-content: center;
