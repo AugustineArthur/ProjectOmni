@@ -48,6 +48,9 @@ label {
     margin-left: 9px;
     font-weight: bold;
 }
+#register-form label{
+    margin-top: 10px;
+}
 
 .termsdesign{
     color:#F97316;
@@ -65,7 +68,10 @@ input {
     display: flex;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
+
 
 button {
     background-color:#F97316;
