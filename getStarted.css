@@ -8,4 +8,84 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+    box-sizing: border-box;
+    background-color: #F1F5F9;
+}
+
+.register-card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color:#F8FAFC;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h2 {
+    margin-bottom: 10px;
+}
+
+.separator {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 5px;
+    margin-left: 9px;
+    font-weight: bold;
+}
+
+.termsdesign{
+    color:#F97316;
+    text-decoration: none;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.terms-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color:#F97316;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #F97316;
+    text-decoration: none;
+}
+
+
 /* getstarted.html styling should go here  */
