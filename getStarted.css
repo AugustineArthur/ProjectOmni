@@ -72,6 +72,15 @@ input {
     
 }
 
+input[type='checkbox'] {
+    accent-color: #364153;
+}
+
+#agree-terms + label {
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+
 
 button {
     background-color:#F97316;

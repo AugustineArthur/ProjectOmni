@@ -72,6 +72,14 @@ input {
     
 }
 
+#remember-me + label {
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+
+input[type='checkbox'] {
+    accent-color: #364153;
+}
 
 button {
     background-color:#F97316;
