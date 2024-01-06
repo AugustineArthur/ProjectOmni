@@ -9,6 +9,10 @@
     
 }
 
+.active{
+    font-weight: 800;
+}
+
 .navbar {
     background-color: #F8FAFC;
     display: flex;
