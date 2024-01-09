@@ -6,6 +6,11 @@
     box-sizing: border-box;
     color: black;
     font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.active{
+    font-weight: 800;
 }
 
 .navbar {
@@ -192,6 +197,9 @@
     width: 400px;
     text-decoration: none;
 }
+.footer-item p a:hover{
+    color: #F97316;
+}
   
   .footer-item {
     /* Existing styles */
@@ -241,3 +249,299 @@
 
 
 /* ***************************The styles above is for the main layout for the project******************************  */
+
+
+
+.heading2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.heading1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.paragraph {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.rightdown{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    
+    
+    border-radius: 7px;
+    padding: auto;
+    text-align: center;
+    
+    
+}
+.rightdown h1 a{
+    align-items: Center; 
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+    background-color: #F97316;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.rightdown h1 a:hover{
+    align-items: Center; 
+    text-decoration: none;
+    border-radius: 7px;
+    color: rgb(22, 7, 36);
+    width: 180px;
+    height: 50px;
+    background-color: red;
+    
+}
+
+.rightdown:hover{
+    
+    border-radius: 7px;
+    
+    color: rgb(22, 7, 36);
+    
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #F1F5F9;
+    text-align: center;
+    
+    
+}
+
+.image-container img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .image-container img {
+        max-width: 100%;
+    }
+}
+
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+    flex: 1;
+    max-width: 350px;
+    margin-bottom: 30px;
+    height: 350px;
+    width: 300px;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    
+}
+
+.icon {
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #666;
+}
+
+@media screen and (min-width: 768px) {
+    /* Adjust styles for larger screens */
+    .cards-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 100px;
+        margin-left: 0px;
+    }
+    
+    
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding: 50px;
+}
+
+.card1 {
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #F97316;
+}
+
+.card1 img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.card-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: #F8FAFC;
+    padding-left: 10px;
+}
+
+.right-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.right-content h1{
+    padding-bottom: 20px;
+}
+
+.list1 {
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+.list1 li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    line-height: 2.5;
+}
+
+.list1 li i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+    line-height: 2.5;
+}
+
+
+.lastdiv {
+    background-color: #E2E8EF;
+    height: 300px;
+    text-align: center;
+}
+.lastdiv h2 {
+    padding-top: 50px;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 0px;
+    text-align: center;
+    
+    
+}
+
+.rightdown2{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    
+    
+    border-radius: 7px;
+    padding: auto;
+    text-align: center;
+    
+    
+}
+.rightdown2 h1 a{
+    align-items: Center; 
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+    background-color: #F97316;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.rightdown2 h1 a:hover{
+    align-items: Center; 
+    text-decoration: none;
+    border-radius: 7px;
+    color: rgb(22, 7, 36);
+    width: 180px;
+    height: 50px;
+    background-color: red;
+    
+}
+
+.rightdown2:hover{
+    
+    border-radius: 7px;
+    
+    color: rgb(22, 7, 36);
+    
+}
