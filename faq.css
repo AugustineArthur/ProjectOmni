@@ -52,20 +52,62 @@
 }
 
 .flex-container h5 {
+    display: flex;
+    align-items: center;
     color: rgb(249, 115, 22, 1);
     font-size: 20px;
-}
-
-.line {
-    border-bottom: 2px solid rgba(226, 232, 239, 1);
+    text-align: center;
 }
 
 #vector {
     width: 24px;
     height: 12px;
+    margin-left: 5px;
 }
 
-.faq-closed-1 {
-    left: 262px;
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+  display: flex;
+}
+
+.flex-child {
+    flex: 1; 
+    text-align: center;
+}
+  
+.flex-child h5 {
+    margin: 0;
+}
+  
+.container-2,
+.container-3,
+.container-4 {
+    margin-top: 20px;
+}
+
+.rectangle-container {
+    background: rgba(226, 232, 239, 1);
+    height: 200px;
+    margin-top: 50px;
+}
+
+.rectangle-container h2 {
+    font-family: Roboto;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    background: rgb(249, 115, 22, 1);
+    padding: 24px 40px;
+    width: 184px;
+    margin: auto;
 }
  /* faq.html styling should go here (William)  */
