@@ -188,7 +188,7 @@
     
 }
 
-.footer-item p a{
+.footer-item2 p a{
     
     margin-top: 15px;
     color: #F8FAFC;
@@ -197,16 +197,47 @@
     width: 400px;
     text-decoration: none;
 }
-.footer-item p a:hover{
+.footer-item2 p a:hover{
     color: #F97316;
 }
-  
-  .footer-item {
-    /* Existing styles */
+
+.footer-item3 p a{
+    
     margin-top: 15px;
     color: #F8FAFC;
     margin-left: 50px;
-    align-items: center;
+    align-items: left;
+    width: 400px;
+    text-decoration: none;
+}
+.footer-item3 p a:hover{
+    color: #F97316;
+}
+  
+.footer-item1 {
+    /* Existing styles */
+    margin-top: 15px;
+    color: #F8FAFC;
+    margin-left: 80px;
+    margin-right: 0px;
+    align-items: left;
+    width: 400px;
+  }
+  .footer-item2 {
+    /* Existing styles */
+    margin-top: 15px;
+    color: #F8FAFC;
+    margin-left: 250px;
+    align-items: left;
+    width: 400px;
+  }
+
+  .footer-item3 {
+    /* Existing styles */
+    margin-top: 15px;
+    color: #F8FAFC;
+    margin-left: -200px;
+    align-items: left;
     width: 400px;
   }
   
@@ -215,7 +246,7 @@
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 170px;
+    margin-left: 90px;
     align-items: start;
   }
   
@@ -223,7 +254,7 @@
     /* Style for the line */
     content: '';
     display: block;
-    width: 900px;
+    width: 1030px;
     height: 1px;
     background: white;
     margin-top: 10px;
@@ -232,11 +263,25 @@
   
   /* Adjustments for smaller screens */
   @media screen and (max-width: 768px) {
-    .footer-item {
+    .footer-item1 {
       width: 100%; /* Adjusting width for smaller screens */
       text-align: center; /* Center-aligning content */
       margin-left: 0; /* Resetting left margin */
     }
+
+    .footer-item2 {
+        width: 100%; /* Adjusting width for smaller screens */
+        text-align: center; /* Center-aligning content */
+        margin-left: 0; /* Resetting left margin */
+      }
+
+    .footer-item3 {
+        width: 100%; /* Adjusting width for smaller screens */
+        text-align: center; /* Center-aligning content */
+        margin-left: 0px; /* Resetting left margin */
+      }
+
+      
 
     .line {
         /* New style to create space between sections */
