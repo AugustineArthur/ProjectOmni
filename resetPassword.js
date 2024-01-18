@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    window.open("http://127.0.0.1:5500/checkMail.html", "_blank");
+    window.open("http://127.0.0.1:5501/checkMail.html", "_blank");
   });
 });
